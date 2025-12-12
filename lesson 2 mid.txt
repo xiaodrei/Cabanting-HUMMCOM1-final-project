@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash or pass</title>
+</head>
+<style>body {
+    background-image: url("vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} body {
+    background-color:#7546d4  ;
+}
+fieldset {
+    display: flex; justify-content: center; width: 100%; align-items: center;
+}
+</style>
+
+
+<div style= "display:flex; justify-content: center; width: 100%; align-items: center;" >
+<h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: aqua;">WELCOME TO SMASH OR PASS</h1>
+</div>
+
+
+
+<div style= "display:flex; justify-content: center; width: 100%; align-items: center;" >
+    <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: aqua;">Welcome to smash or pass, please fill out form to get to smashin.</h3>
+</div>
+
+
+<div> 
+    <img src="smash-removebg-preview.png" alt="" width="1000 px" height="300px">
+</div>
+
+
+<form action="">
+    <fieldset>
+        <div style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <form action="">
+            <label for=" First name"> First Name: </label>
+            <input type="text" id="name" name="name">
+            <input type= "Submit" value="Submit" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        </form>
+    </div>
+    <div style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <form action="">
+            <label for=" Last Name ">Last Name:</label>
+            <input type="text" id="name" name="name">
+            <input type="Submit" value="Submit" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        </form>
+    </div>
+</fieldset>
+
+    <fieldset>
+        <div style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <h2>Choose Gender </h2>
+        <input type="radio" id="male" name="gender" value="gender">
+        <label for="male">MALE</label>
+        <input type="radio" id="female" name="gender" value="gender">
+        <label for="female">FEMALE</label>
+        <input type="radio" id="other" name="gender" value="gender">
+        <label for="other">OTHERS</label>
+    </div>
+</fieldset>
+<fieldset>  
+    <div>
+    <br>
+    <br style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <label for="myDate" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Select Birthdate:</label>
+    <input type="date" id="myDate" name="selectedDate">
+</div>
+</fieldset>
+  <fieldset>  
+      <div>
+    <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large;"> SELECT PREFFERENCES:</h2>
+    <input type="Checkbox" id="Chinita" name="PREFFERENCES" value="Chinita">
+    <label for="Chinita" style="font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> Chinita</label>
+    <input type="Checkbox" id="morena" name="PREFFERENCES" value="Morena">
+    <label for="morena" style="font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> Morena</label>
+    <input type="Checkbox" id="Meztisa" name="PREFFERENCES" value="Meztisa">
+    <label for="Meztisa" style="font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> Mestiza</label>
+    <input type="Checkbox" id="Latina" name="PREFFERENCES" value="latina">
+    <label for="Latina" style="font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Latina</label>
+</div>
+</fieldset>
+<fieldset>
+     <div style="font-size: x-large;">
+    <input type="Submit" value=" Submmit" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <input type="Reset" value="Clear Form" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <button type="button" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Click Me</button>
+</div>
+</fieldset>
+
+
+   
+</form>
+    
+
+
+<!-- Instructions: Imagine you are the owner of a business. This can be any business, whether grounded in real life or in fantasy. Create a webpage with a relevant form that your customers and patrons may need to fill up for your business. Example: If I am a Doctor running my own clinic, my patients may need to fill up their patient information form. 
+The form must have: 
+● At least 2 relevant input fields 
+● At least 1 set of radio buttons 
+● At least 1 set of checkboxes 
+● At least 1 button 
+SIT-FO-045 Page 3 of 5
+Your webpage must have: 
+● Customized background and fonts 
+● At least 1 image 
+● At least 1 header and 1 paragraph explaining what your business is and welcoming visitors to the site ● The form itself 
+Additional challenge for advanced students: 
+● You may try using CSS to decorate and enhance your site.  -->
+
+</html>

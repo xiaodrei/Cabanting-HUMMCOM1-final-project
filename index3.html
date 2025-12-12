@@ -18,25 +18,110 @@
         <section class="gallery-grid">
 
             <div class="gallery-card">
-                <img src="quiz1.jpg" alt="Quiz 1">
+                <h3>Activity 2</h3>
+                <a href="ANDREE CABANTING - HUMCOM LESSON-ACTIVITY #2.pdf" download="Activity2">Download</a>
+                <img src="lesson 2.png" alt="Activity 2">
             </div>
 
             <div class="gallery-card">
-                <img src="activity1.jpg" alt="Activity 1">
+                <h3>Activity 1</h3>
+                <img src="act1.png" alt="Activity 1">
             </div>
 
             <div class="gallery-card">
-                <img src="quiz2.jpg" alt="Quiz 2">
+                <h3>Activity 3.1, 3.2</h3>
+                <a href="ANDREE CABANTING - PAIR Lesson-Activity 4 - Introduction to Git.docx" download="Activity3">Download</a>
+                <img src="quiz2.jpg" alt="Activity 3">
             </div>
 
             <div class="gallery-card">
-                <img src="activity2.jpg" alt="Activity 2">
+                <h3>Activity 4</h3>
+                <img src="activity2.jpg" alt="Activity 4">
             </div>
 
-            <!-- Add more images here -->
+            <div class="gallery-card">
+                <h3>First Grading Exam</h3>
+                <img src="Exam prelims.png" alt="Exam Prelims">
+            </div>
+
+            <div class="gallery-card">
+                <h3>Midterms Activity 1</h3>
+                <a href="Cabanting_Midtermactivity#1.html" download="MidtermAct1">Download HTML</a>
+                <a href="Cabanting-LESSONACT5.PDF.pdf" download="MidtermAct5">Download PDF</a>
+                <img src="lesson 2.png" alt="Midterm Activity 1">
+            </div>
+
+            <div class="gallery-card">
+                <h3>Midterms Activity 2</h3>
+                <a href="Cabanting_MidtermLesson2.html" download="MidtermLesson2">Download</a>
+            </div>
+
+            <div class="gallery-card">
+                <h3>Midterms Exams</h3>
+                <img src="Exam midterms.png" alt="Midterm Exam">
+            </div>
+
+            <div class="gallery-card">
+                <h3>Finals Activity 1</h3>
+                <a href="Cabanting-recipe-stylesheet.css" download="RecipeCSS">Download CSS</a>
+                <a href="Cabanting-recipe.html" download="RecipeHTML">Download HTML</a>
+            </div>
+
+            <div class="gallery-card">
+                <h3>Finals Activity 2</h3>
+                <a href="Stayls.css" download="StylesCSS">Download CSS</a>
+                <a href="lesson 2 mid.txt" download="Lesson2Txt">Download TXT</a>
+            </div>
+
+            <div class="gallery-card">
+                <h3>Mockup</h3>
+                <img src="Cabantingandree-mockup.png" alt="Mockup">
+            </div>
+
+        </section>
+
+        <section class="reflection-section" style="margin-top:50px; text-align:left; background:#fff; padding:25px; border-radius:15px; box-shadow:0px 10px 25px rgba(0,0,0,0.08);">
+            <h2 style="color:#1E88E5; margin-bottom:15px;">Reflection</h2>
+            <p style="color:#444; line-height:1.8;">
+                My first semester in college as a freshman has been a meaningful and memorable experience. 
+                Taking the subject <strong>Human-Computer Interaction</strong> helped me adjust to college life because the lessons were hands-on, understandable, and connected to everyday technology. 
+                What truly made the subject enjoyable was having a great teacher who explained concepts clearly and supported us throughout the course.
+            </p>
+
+            <p style="color:#444; line-height:1.8;">
+                Our computer laboratory sessions were one of my favorite parts of the semester. 
+                Doing actual tasks on the computer made the lessons easier to understand and more enjoyable. 
+                I learned the importance of good design, user experience, and how humans interact with technology in the real world.
+            </p>
+
+            <p style="color:#444; line-height:1.8;">
+                Overall, being a freshie this first semester taught me not only academic lessons but also confidence, teamwork, and curiosity. 
+                I am grateful for the positive experiences, the support of my teacher, and the new skills I gained. 
+                This semester has motivated me to look forward to the next chapters of my college journey.
+            </p>
         </section>
 
     </div>
+
+    <script>
+        const images = document.querySelectorAll(".gallery-card img");
+
+        const fullscreen = document.createElement("div");
+        fullscreen.classList.add("fullscreen-img");
+        fullscreen.innerHTML = "<img src=''>";
+        document.body.appendChild(fullscreen);
+
+        images.forEach(img => {
+            img.addEventListener("click", () => {
+                fullscreen.querySelector("img").src = img.src;
+                fullscreen.classList.add("show");
+            });
+        });
+
+        fullscreen.addEventListener("click", () => {
+            fullscreen.classList.remove("show");
+        });
+    </script>
 
 </body>
 </html>

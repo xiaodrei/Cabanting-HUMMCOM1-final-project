@@ -1,0 +1,128 @@
+
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;  
+    color: black; 
+}
+
+.title img {
+    width: 350px; 
+    height: 350px;
+    border: 8px solid #D84B16; 
+    border-radius: 15px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin-top: 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.title img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-color: #FF5733; 
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #D84B16; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+body {
+    background-color: #F4E1C1; 
+    color: #3B2F2F; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff; 
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #D84B16; 
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.title header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #D84B16; 
+}
+
+.title img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 5px solid #D84B16; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note {
+    font-size: 1.1em;
+    color: #3B2F2F; 
+    font-style: italic;
+    border-top: 1px solid #D84B16; 
+    padding-top: 15px;
+}
+
+
+label {
+    font-family: 'Lora', serif; 
+    color: #3B2F2F;
+    font-size: 1.1em;
+}
+
+
+ul, ol {
+    list-style-position: inside;
+}
+
+ul li, ol li {
+    margin: 8px 0;
+}
+
